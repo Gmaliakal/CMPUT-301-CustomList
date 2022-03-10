@@ -40,7 +40,7 @@ public class CustomListTest {
         assertEquals(list.getCount(), 1);
         list.delete(new City("Edmonton","AB"));
         assertEquals(list.getCount(), 0);
-        
+
     }
 
 }

@@ -56,9 +56,15 @@ public class CustomList extends ArrayAdapter<City> {
         cities.add(city);
         return;
     }
+
     public int hasCity(City city){
         int mynum = 0;
-
+        for(int i=0;i<cities.size();i++){
+            if (cities.get(i).getCityName() == city.getCityName()){
+                mynum = 1;
+            }
+        }
+        
         return mynum;
     }
 

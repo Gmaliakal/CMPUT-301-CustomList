@@ -64,10 +64,14 @@ public class CustomList extends ArrayAdapter<City> {
                 mynum = 1;
             }
         }
-        
+
         return mynum;
     }
 
+
+    public void delete(City city){
+        return;
+    }
 
 
 }
